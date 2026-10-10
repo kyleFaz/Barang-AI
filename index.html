@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barangay Ligid-Tipas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- topbar -->
+         <div class="top-bar">
+            <div class="date-info">
+                <span> <img src="images/Flag_of_the_Philippines.webp">  </span> <span id="current-date"></span>
+            </div>
+
+            <a href="#" class="facebook" onclick="window.open('https://www.facebook.com/officialBarangayLigidTipas', '_blank')">
+                <img src="images/FB.png" alt="Facebook">
+            </a>
+         </div>
+
+        <!-- navbar -->
+        <nav class="navbar">
+            <div class="brand">
+                <img src="images/ligid_logo.png" alt="Barangay Ligid-Tipas Logo">
+                <h2>Barangay Ligid-Tipas</h2>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#our-barangay">Our Barangay</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="login.html" class="login-btn">Sign In</a></li>
+            </ul>
+        </nav>
+
+        <!-- hero section -->
+        <section class="hero" id="home">
+            <div class="hero-slider">
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+            </div>
+
+            <div class="hero-content">
+                <h1>WELCOME TO BARANGAY<br>LIGID-TIPAS</h1>
+                <p>Your trusted community partner.</p>
+            </div>
+        </section>
+
+        <!-- barang-ai section -->
+        <section class="barang-ai">
+            <div class="ai-content">
+                <h2>Have any inquiries?</h2>
+                <p>
+                    Ask our Barang-AI, a chatbot designed to help 
+                    you find answers to your questions about barangay 
+                    services and other concerns.
+                </p>
+                <button class="chatbot-button" onclick="openChatbot()">Chat with Barang-AI</button>
+            </div>
+
+            <div class="ai-preview">
+                <div class="chat-header">
+                    <div class="avatar"></div>
+                    <div>
+                        <h3>Barang-AI</h3>
+                        <span class="status">● Online</span>
+                    </div>
+                </div>
+
+                <div class="chat-messages">
+                    <div class="message bot-message">
+                        Hello! I'm Barang-AI. How can I assist you today?
+                    </div>
+                    <div class="message user-message">
+                        I need a clearance for my work.
+                    </div>
+
+                    <div class="message bot-message">
+                        Sure! You will just need to provide your valid ID and proof of residence. next, proceed to the barangay
+                        office to submit your application.
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+         <script src="script.js"></script>
+    </body>
+</html>
